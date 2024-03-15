@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página ASF</title>
+
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/fonts/Alegreya_Sans/alegreyasans.css" />
+    <link rel="stylesheet" href="./assets/fonts/Alegreya_Sans_SC/alegreyasanssc.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <script src="./assets/js/menu-mobile.js"></script>
+    <script src="./assets/js/navbar-fixed.js"></script>
+
+</head>
+<body>
+    <div class="menu-mobile">
+        <header class="menu-mobile__header">
+            <div class="menu-mobile__container-logo">
+                <a class="menu-mobile__link-logo" href="#">
+                    <img class="menu-mobile__logo" src="./assets/img/logo.svg" />
+                </a>
+            </div>
+            <button class="menu-mobile__close">
+                <i class="menu-mobile__icon-close fa-solid fa-xmark"></i>
+            </button>
+        </header>
+        <div class="menu-mobile__body">
+            <nav class="menu-mobile__nav">
+                <ul class="menu-mobile__list">
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__title">Inicio</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#services" class="menu-mobile__title">Servicios
+                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Clases</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Talleres</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Torneos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#academies" class="menu-mobile__title">Academias
+                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Río Claro</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Ciudad Neily</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Golfito</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Paso Canoas</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#stats" class="menu-mobile__title">Estadísticas
+                        </a>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#review" class="menu-mobile__title">Reseñas
+                        </a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#news" class="menu-mobile__title">Noticias
+                        </a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#donate" class="menu-mobile__title">Colabora
+                        </a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#contact" class="menu-mobile__title">Contacto
+                        </a>
+                    </li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="layout">
+        <!--Navbar-->
+        <section class="layout__menu">
+            <div class="menu__navbar">
+                <!--Logo-->
+                <div class="navbar__logo">
+                    <a href="#" class="navbar__link-logo">
+                        <img src="./assets/img/Ajedrez_sin_fronteras-removebg-preview.png" class="navbar__logo-light" />
+                    </a>
+                </div>
+                <!--Menu responsive-->
+                <div class="navbar__mobile-btn">
+                    <button class="mobile-btn__wrap">
+                        <span class="mobile-btn__line"></span>
+                        <span class="mobile-btn__line"></span>
+                        <span class="mobile-btn__line"></span>
+
+                    </button>
+                </div>
+                <nav class="navbar__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__title">Servicios
+                                <i class="fa-solid fa-chevron-down nav__icon"></i>
+                            </a>
+                            <ul class="nav__submenu">
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Clases</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Talleres</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Torneos</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#academies" class="nav__title">Academias
+                                <i class="fa-solid fa-chevron-down nav__icon"></i>
+                            </a>
+                            <ul class="nav__submenu">
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Río Claro</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Ciudad Neily</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Golfito</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Paso Canoas</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#stats" class="nav__title">Estadísticas
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#review" class="nav__title">Reseñas
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#news" class="nav__title">Noticias
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#donate" class="nav__title">Colabora
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__title">Contacto
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </nav>
+            </div>
+
+        </section>
+        <!--Banner-->
+        <section class="layout__banner">
+            <!--Banner content-->
+            <header class="banner__content">
+                <h1 class="banner__title">Ajedrez Sin Fronteras</h1>
+                <a href="#academies" class="banner__btn">Ver academias</a>
+            </header>
+            <!--Geometric shapes-->
+            <div class="banner__shapes">
+                <ul class="shapes__list">
+                    <li class="shapes__item shapes__item--shape1">
+                        <div class="shapes__container">
+                            <img class="shapes__img" src="./assets/img/banner1.svg" />
+                        </div>
+                    </li>
+                    <li class="shapes__item shapes__item--shape2">
+                        <div class="shapes__container">
+                            <img class="shapes__img" src="./assets/img/banner2.svg" />
+                        </div>
+                    </li>
+                    <li class="shapes__item shapes__item--shape3">
+                        <div class="shapes__container">
+                            <img class="shapes__img" src="./assets/img/bubble-16.png" />
+                        </div>
+                    </li>
+                    <li class="shapes__item shapes__item--shape4">
+                        <div class="shapes__container">
+                            <img class="shapes__img" src="./assets/img/bubble-15.png" />
+                        </div>
+                    </li>
+                    <li class="shapes__item shapes__item--shape5">
+                        <div class="shapes__container">
+                            <img class="shapes__img" src="./assets/img/bubble-14.png" />
+                        </div>
+                    </li>
+                    <li class="shapes__item shapes__item--shape6">
+                        <div class="shapes__container">
+                            <img class="shapes__img" src="./assets/img/bubble-16.png" />
+                        </div>
+                    </li>
+                    <li class="shapes__item shapes__item--shape7">
+                        <div class="shapes__container">
+                            <img class="shapes__img" src="./assets/img/bubble-26.png" />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Services-->
+        <section class="layout__services" id="services">
+            <div class="services__grid">
+                <header class="services__header">
+                    <p class="services__subtitle">
+                        ¿Cómo ayudamos a promover el ajedrez?
+                    </p>
+                    <h2 class="services__title">Servicios que <br />brindamos</h2>
+                </header>
+                <div class="services__list">
+                    <article class="services__service services__service--bottom">
+                        <div class="services__containerimg">
+                            <img class="services__img" src="./assets/img/aux.svg" />
+                        </div>
+                        <div class="services__content">
+                            <h3 class="service__title">
+                                <a href="#" class="service__link">Clases</a>
+
+                            </h3>
+                            <p class="service__description">
+                                Clases de ajedrez a personas de todas las edades divididos en varios niveles de juego
+                            </p>
+                            <br>
+                            <a href="#" class="service__more">Leer más</a>
+                        </div>
+                    </article>
+                    <article class="services__service services__service--middle">
+                        <div class="services__containerimg">
+                            <img class="services__img" src="./assets/img/aux.svg" />
+                        </div>
+                        <div class="services__content">
+                            <h3 class="service__title">
+                                <a href="#" class="service__link">Talleres</a>
+
+                            </h3>
+                            <p class="service__description">
+                                Talleres introductorios de ajedrez para escuelas, colegios y demás instituciones
+                                educativas
+                            </p>
+                            <br>
+                            <a href="#" class="service__more">Leer más</a>
+                        </div>
+                    </article>
+                    <article class="services__service services__service--top">
+                        <div class="services__containerimg">
+                            <img class="services__img" src="./assets/img/aux.svg" />
+                        </div>
+                        <div class="services__content">
+                            <h3 class="service__title">
+                                <a href="#" class="service__link">Torneos</a>
+
+                            </h3>
+                            <p class="service__description">
+                                Torneos de ajedrez competitivos válidos para ELO FIDE
+                            </p>
+                            <br>
+                            <a href="#" class="service__more">Leer más</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <ul class="services__service-shapes">
+                <li class="service-shapes__item service-shapes--1">
+                    <div class="service-shapes__container">
+                        <img class="service-shapes__img" src="./assets/img/circle-2.png" />
+                    </div>
+
+                </li>
+                <li class="service-shapes__item service-shapes--2">
+                    <div class="service-shapes__container">
+                        <img class="service-shapes__img" src="./assets/img/bubble-2.png" />
+                    </div>
+                </li>
+                <li class="service-shapes__item service-shapes--3">
+                    <div class="service-shapes__container">
+                        <img class="service-shapes__img" src="./assets/img/bubble-1.png" />
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+        <!--Projects-->
+        <section class="layout__projects" id="academies">
+            <div class="projects__grid">
+                <div class="projects__header">
+                    <p class="projects__subtitle">
+                        Nuestras academias
+                    <h2 class="projects__title">
+                        Algunos de nuestras<br /> principales academias
+                    </h2>
+                    </p>
+                </div>
+                <ul class="projects__categories">
+                    <li class="categories__item categories__item--active">
+                        Todas las academias
+                    </li>
+                    <li class="categories__item">
+                        Costa Rica
+                    </li>
+                    <li class="categories__item">
+                        Otros
+                    </li>
+                </ul>
+                <div class="projects__all">
+                    <article class="projects__item">
+                        <div class="project__container-img">
+                            <a href="#" class="project__link-img">
+                                <img src="./assets/img/academy.jpg" class="project__img" />
+
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">
+                                <a href="#" class="project__link-title">
+                                    Academia Río Claro
+                                </a>
+                            </h3>
+                            <div class="project__tags">
+                                <span class="project__tag">Casa de la Juventud</span>
+
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects__item">
+                        <div class="project__container-img">
+                            <a href="#" class="project__link-img">
+                                <img src="./assets/img/academy.jpg" class="project__img" />
+
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">
+                                <a href="#" class="project__link-title">
+                                    Academia Ciudad Neily
+                                </a>
+                            </h3>
+                            <div class="project__tags">
+                                <span class="project__tag">Comite cantonal de deportes</span>
+
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects__item">
+                        <div class="project__container-img">
+                            <a href="#" class="project__link-img">
+                                <img src="./assets/img/academy.jpg" class="project__img" />
+
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">
+                                <a href="#" class="project__link-title">
+                                    Academia Golfito
+                                </a>
+                            </h3>
+                            <div class="project__tags">
+                                <span class="project__tag">Algún lugar</span>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__item">
+                        <div class="project__container-img">
+                            <a href="#" class="project__link-img">
+                                <img src="./assets/img/academy.jpg" class="project__img" />
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">
+                                <a href="#" class="project__link-title">
+                                    Academia Paso Canoas
+                                </a>
+                            </h3>
+                            <div class="project__tags">
+                                <span class="project__tag">Algún lugar</span>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <ul class="projects__project-shapes">
+                <li class="project-shapes__item project-shapes--1">
+                    <div class="project-shapes__container">
+                        <img class="project-shapes__img" src="./assets/img/circle-2.png" />
+                    </div>
+
+                </li>
+                <li class="project-shapes__item project-shapes--2">
+                    <div class="project-shapes__container">
+                        <img class="project-shapes__img" src="./assets/img/bubble-2.png" />
+                    </div>
+                </li>
+                <li class="project-shapes__item project-shapes--3">
+                    <div class="project-shapes__container">
+                        <img class="project-shapes__img" src="./assets/img/bubble-1.png" />
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--Stats-->
+        <section class="layout__stats">
+            <div class="stats__container">
+                <header class="stats__header">
+                    <h4 class="stats__subtitle">
+                        ¡Ajedrez para todos!
+                    </h4>
+                    <h2 class="stats__title">Estadísticas de progresos realizados</h2>
+                    <p class="stats__description">
+                        Aquí puedes ver un resumen de nuestras estadísticas en estos años de trabajo
+                    </p>
+                </header>
+                <div class="stats__progress">
+                    <article class="stats__stat">
+                        <div class="stat__icon">
+                            <img src="./assets/img/icon-7.png" class="stat__img" />
+                        </div>
+                        <span class="stat__count">
+                            +2
+                        </span>
+                        <h6 class="stat__title">
+                            Años activos
+                        </h6>
+                    </article>
+                    <article class="stats__stat">
+                        <div class="stat__icon">
+                            <img src="./assets/img/icon-8.png" class="stat__img" />
+                        </div>
+                        <span class="stat__count">
+                            +15
+                        </span>
+                        <h6 class="stat__title">
+                            Talleres realizados
+                        </h6>
+                    </article>
+                    <article class="stats__stat">
+                        <div class="stat__icon">
+                            <img src="./assets/img/apple.png" class="stat__img" />
+                        </div>
+                        <span class="stat__count">
+                            +50
+                        </span>
+                        <h6 class="stat__title">
+                            Estudiantes activos
+                        </h6>
+                    </article>
+                    <article class="stats__stat">
+                        <div class="stat__icon">
+                            <img src="./assets/img/icon-9.png" class="stat__img" />
+                        </div>
+                        <span class="stat__count">
+                            +15
+                        </span>
+                        <h6 class="stat__title">
+                            Participaciones en torneos
+                        </h6>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--Reviews-->
+        <section class="layout__reviews">
+            <div class="reviews__grid">
+                <header class="reviews__header">
+                    <h4 class="reviews__subtitle">
+                        Reseñas
+                    </h4>
+                    <h2 class="reviews__title">
+                        ¿Qué dicen sobre la academia?
+                    </h2>
+                    <p class="reviews__description">
+                        Ajedrez sin Fronteras
+                    </p>
+                </header>
+                <div class="reviews__container">
+                    <article class="reviews__review">
+                        <span class="review__company">
+                            <img class="review__img" src="./assets/img/logoFCA.png" />
+                        </span>
+                        <p class="review__description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia numquam minima doloribus
+                            culpa corporis aliquam!
+                        </p>
+                        <div class="review__author">
+                            <div class="author__container-img">
+                                <img class="author__img" src="./assets/img/avatar.png" />
+                            </div>
+                            <div class="author__content">
+                                <span class="author__name">
+                                    Persona 2
+                                </span>
+                                <span class="author__description">
+                                    Presidente
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="reviews__review">
+                        <span class="review__company">
+                            <img class="review__img" src="./assets/img/logoFCA.png" />
+                        </span>
+                        <p class="review__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste modi iusto consequuntur velit
+                            cum accusamus.
+                        </p>
+                        <div class="review__author">
+                            <div class="author__container-img">
+                                <img class="author__img" src="./assets/img/avatar.png" />
+                            </div>
+                            <div class="author__content">
+                                <span class="author__name">
+                                    Persona 3
+                                </span>
+                                <span class="author__description">
+                                    Loco
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="reviews__review">
+                        <span class="review__company">
+                            <img class="review__img" src="./assets/img/logoFCA.png" />
+                        </span>
+                        <p class="review__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aspernatur tempore soluta,
+                            nemo sint nesciunt?
+                        </p>
+                        <div class="review__author">
+                            <div class="author__container-img">
+                                <img class="author__img" src="./assets/img/avatar.png" />
+                            </div>
+                            <div class="author__content">
+                                <span class="author__name">
+                                    Persona 2
+                                </span>
+                                <span class="author__description">
+                                    Persona
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+
+            </div>
+            <ul class="reviews__review-shapes">
+
+
+                <li class="review-shapes__item review-shapes--3">
+                    <div class="review-shapes__container">
+                        <img class="service-shapes__img" src="./assets/img/bubble-1.png" />
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--Clients-->
+        <section class="layout__clients">
+            <div class="clients__container">
+                <header class="clients__header">
+                    <!-- <h4 class="clients__subtitle">
+                        Mejores clientes
+                    </h4> -->
+                    <h2 class="clients__title">
+                        Colaboramos con
+                    </h2>
+                    <p class="clients__description">
+                        Distintas instituciones públicas y privadas para promover el ajedrez
+                    </p>
+                </header>
+                <div class="clients__logos">
+                    <article class="clients__item">
+                        <img class="clients__img" src="./assets/img/logoFCA.png" />
+                    </article>
+                    <article class="clients__item">
+                        <img class="clients__img" src="./assets/img/logoFCA.png" />
+                    </article>
+                    <article class="clients__item">
+                        <img class="clients__img" src="./assets/img/logoFCA.png" />
+                    </article>
+                    <article class="clients__item">
+                        <img class="clients__img" src="./assets/img/logoFCA.png" />
+                    </article>
+                </div>
+            </div>
+            <ul class="clients__client-shapes">
+                <li class="client-shapes__item client-shapes--1">
+                    <div class="client-shapes__container">
+                        <img class="client-shapes__img" src="./assets/img/line-9.png" />
+                    </div>
+
+                </li>
+            </ul>
+        </section>
+        <!--News-->
+        <section class="layout__news">
+            <div class="news__container">
+                <header class="news__header">
+                    <h4 class="news__subtitle">
+                        ¿Qué está pasando?
+                    </h4>
+                    <h2 class="news__title">
+                        Últimas noticias
+                    </h2>
+                    <p class="news__description">
+                        Novedades sobre las actividades de la academia
+                    </p>
+                </header>
+                <div class="news__list">
+                    <article class="news__new">
+                        <div class="new__container-img">
+                            <img class="new__img" src="./assets/img/Notice.jpg" />
+                        </div>
+                        <div class="new__content">
+                            <h3 class="new__title">
+                                <a href="#" class="new__link">
+                                    Torneo de fogueo para JDN
+                                </a>
+                            </h3>
+                            <p class="new__description">
+                                Resultados e información acerca de este torneo.
+                            </p>
+                            <a href="#" class="new__more">
+                                Leer más
+                                <i class="fa-solid fa-chevron-right new__icon"></i>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="news__new">
+                        <div class="new__container-img">
+                            <img class="new__img" src="./assets/img/Notice.jpg" />
+                        </div>
+                        <div class="new__content">
+                            <h3 class="new__title">
+                                <a href="#" class="new__link">
+                                    Participación en JDN 2024
+                                </a>
+                            </h3>
+                            <p class="new__description">
+                                Un resumen de toda la participación de nuestros atletas
+                            </p>
+                            <a href="#" class="new__more">
+                                Leer más
+                                <i class="fa-solid fa-chevron-right new__icon"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+            <ul class="news__new-shapes">
+                <li class="new-shapes__item new-shapes--1">
+                    <div class="new-shapes__container">
+                        <img class="new-shapes__img" src="./assets/img/bubble-1.png" />
+                    </div>
+
+                </li>
+                <li class="new-shapes__item new-shapes--2">
+                    <div class="new-shapes__container">
+                        <img class="new-shapes__img" src="./assets/img/line-1.png" />
+                    </div>
+                </li>
+                <li class="new-shapes__item new-shapes--3">
+                    <div class="new-shapes__container">
+                        <img class="new-shapes__img" src="./assets/img/line-2.png" />
+                    </div>
+                </li>
+                <li class="new-shapes__item new-shapes--4">
+                    <div class="new-shapes__container">
+                        <img class="new-shapes__img" src="./assets/img/bubble-2.png" />
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--Contact-->
+        <section class="layout__contact">
+            <div class="contact__container">
+                <header class="contact__header">
+                    <h4 class="contact__subtitle">
+                        Trabajemos juntos
+                    </h4>
+                    <h2 class="contact__title">
+                        Apóyennos para llevar el ajedrez a más personas
+                    </h2>
+                    <a href="#" class="contact__btn">
+                        Donar
+                    </a>
+                </header>
+                <div class="contact__images">
+                    <div class="contact__thumb contact__thumb--1">
+                        <img class="contact__img" src="./assets/img/donate.svg" />
+                    </div>
+                </div>
+            </div>
+            <ul class="contact__backshapes">
+                <li class="backshapes__item backshapes--1">
+                    <img class="backshapes__img" src="./assets/img/bubble-12.png" />
+                </li>
+                <li class="backshapes__item backshapes--2">
+                    <img class="backshapes__img" src="./assets/img/bubble-16.png" />
+                </li>
+                <li class="backshapes__item backshapes--3">
+                    <img class="backshapes__img" src="./assets/img/bubble-13.png" />
+                </li>
+                <li class="backshapes__item backshapes--4">
+                    <img class="backshapes__img" src="./assets/img/bubble-14.png" />
+                </li>
+                <li class="backshapes__item backshapes--5">
+                    <img class="backshapes__img" src="./assets/img/bubble-16.png" />
+                </li>
+                <li class="backshapes__item backshapes--6">
+                    <img class="backshapes__img" src="./assets/img/bubble-15.png" />
+                </li>
+                <li class="backshapes__item backshapes--7">
+                    <img class="backshapes__img" src="./assets/img/bubble-16.png" />
+                </li>
+            </ul>
+        </section>
+        <!--Footer-->
+        <footer class="layout__footer">
+            <div class="footer__container">
+                <section class="footer__top">
+                    <ul class="footer__social">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-facebook-f social__img"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-twitter social__img"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-youtube social__img"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-linkedin social__img"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-instagram social__img"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-pinterest-p social__img"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-vimeo-v social__img"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-behance social__img"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </section>
+                <section class="footer__main">
+                    <div class="footer__fleft">
+                        <div class="fleft__container">
+                            <h2 class="fleft__title">Contáctanos</h2>
+                            <p class="fleft__subtitle">
+
+                            </p>
+                            <form class="fleft__form">
+                                <p>Suscribete para mantenerte al tanto</p>
+                                <div class="fleft__group">
+                                    <span class="fleft__mail-icon">
+                                        <i class="fa-solid fa-envelope-open-text fleft__img"></i>
+                                    </span>
+                                    <input type="text" class="fleft__form-control" placeholder="Correo electrónico" />
+                                    <button type="submit" class="fleft__btn">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer__fright">
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Servicios</h6>
+                            <ul class="widget__list">
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Clases</a>
+                                </li>
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Talleres</a>
+                                </li>
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Torneos</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Academias</h6>
+                            <ul class="widget__list">
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Río Claro</a>
+                                </li>
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Ciudad Neily</a>
+                                </li>
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Canoas</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__widget">
+                            <h6 class="widget__title">Soporte</h6>
+                            <ul class="widget__list">
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Contacto</a>
+                                </li>
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Política de privacidad</a>
+                                </li>
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Términos de uso</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="footer__bottom">
+                    <div class="footer__copyright">
+                        <span class="copyright__text">
+                            &copy; 2024.
+                        </span>
+                    </div>
+                    <div class="footer__links">
+                        <ul class="footer__flinks">
+                            <li class="flinks__item flinks__item--separator">
+                                <a href="#" class="flinks__title">Politica de privacidad</a>
+                            </li>
+                            <li class="flinks__item flinks__item--separator">
+                                <a href="#" class="flinks__title">Términos de uso</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
